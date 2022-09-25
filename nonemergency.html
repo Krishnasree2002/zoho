@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>emergency</title>
+		<style>
+			img
+			{
+				display: block;
+				width: 400px;
+			}
+		</style>
+	</head>
+	<body bgcolor="lightblue">
+		<h3 style="color:blue;font-weight: bold;text-align: center;">Non Emergency Service</h3>
+		<div id="mydiv">
+		<div id="id1">
+			<img src="tata.jfif" alt="image not displayed">
+			<button onclick="bookfun('car')">book now</button>
+		</div>
+		<div id="id2">
+			<img src="maruti.jfif" alt="image not displayed">
+			<button onclick="bookfun('van')">book now</button>
+		</div>
+	</div>
+		<script>
+			function bookfun(s)
+			{
+				alert("you have successfully booked "+s);
+			}
+		</script>
+	</body>
+</html>
